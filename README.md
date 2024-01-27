@@ -4,21 +4,27 @@ This GitHub repository is dedicated to exploring and implementing a Codebook gen
 
 ## Purpose
 
-The primary focus of this repository is to develop and test methods related to DNA storage, specifically Codebook generation. The project aims to [insert a brief overview of your goals and objectives].
+The main goal of this project is to develop a robust encoding method for DNA storage that can effectively correct errors arising from substitutions, insertions, and deletions simultaneously. The emphasis is on the generation of a codebook that enables error correction in the context of DNA data storage.
 
 ## Contents
+- **Data:** Store some experimental results and comparative data, as well as codebooks for other adversarial scenarios.
+- **Implementation code** The initial version of the code for ECG and codebook generation in the research paper. This folder will not be made public until the paper is published. 
 
-- **Data:** This directory contains experimental data related to DNA storage.
 
-- **Code:** The `code` directory includes scripts and code used for the experiments and verification of the Codebook generation method.
+## Future Work
 
-## Usage
+As the project progresses, future plans may includ：
+- **Efficient Implementation of Codebook Generation.** Reduce unnecessary computations in each iteration and parallelize the loss calculation on the GPU.
+- **Efficient Encoding and Decoding Implementation.** Implementation of an efficient encoding and decoding algorithm based on ECG.
+- **A Better Optimization.** An efficient DFO (Derivative-Free Optimization) algorithm tailored for codebook generation.
+- **More Powerful ECG.** Upgrade the edit computational graph (ECG) to allow for the generation of error-correcting codebooks tailored for general adversarial scenarios, such as burst errors and duplication.
 
-As of now, this repository is primarily used for research purposes and to store data and code related to ongoing experiments. Once the associated research paper is published, the computational code will be made publicly available.
 
 ## Contributions
 
-Contributions to the project are welcome. If you are interested in collaborating or have suggestions, please [insert information on how to get in touch].
+Contributions to the project are welcome. If you are interested in collaborating or have suggestions, please：
+[2230501004@cnu.edu.cn](mailto:2230501004@cnu.edu.cn)
+
 
 ## License
 
