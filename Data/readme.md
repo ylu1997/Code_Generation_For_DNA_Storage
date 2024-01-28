@@ -1,6 +1,7 @@
 ## Data
 
 Utilize the `*.csv` file for detailed experiment data. 
+Utilize the `*.txt` file for the corresponding codebook.
 
 ## License
 
