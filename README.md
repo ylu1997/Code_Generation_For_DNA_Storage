@@ -8,7 +8,7 @@ The main goal of this project is to develop a robust encoding method for DNA sto
 
 ## Contents
 - **Data:** Store some experimental results and comparative data, as well as codebooks for other adversarial scenarios.
-- **Implementation code** The initial version of the code for ECG and codebook generation in the research paper. This folder will not be made public until the paper is published. 
+- **Codebook Generation Scheme** The initial version of the code for ECG and codebook generation in the research paper. This folder will not be made public until the paper is published. 
 
 
 ## Future Work
