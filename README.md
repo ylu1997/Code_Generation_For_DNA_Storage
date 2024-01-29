@@ -11,15 +11,6 @@ The main goal of this project is to develop a robust encoding method for DNA sto
 - **Codebook Generation Scheme** The initial version of the code for ECG and codebook generation in the research paper. This folder will not be made public until the paper is published. 
 
 
-## Future Work
-
-As the project progresses, future plans may includ：
-- **Efficient Implementation of Codebook Generation.** Reduce unnecessary computations in each iteration and parallelize the loss calculation on the GPU.
-- **Efficient Encoding and Decoding Implementation.** Implementation of an efficient encoding and decoding algorithm based on ECG.
-- **A Better Optimization.** An efficient DFO (Derivative-Free Optimization) algorithm tailored for codebook generation.
-- **More Powerful ECG.** Upgrade the edit computational graph (ECG) to allow for the generation of error-correcting codebooks tailored for general adversarial scenarios, such as burst errors and duplication.
-
-
 ## Contributions
 
 Contributions to the project are welcome. If you are interested in collaborating or have suggestions, please：
