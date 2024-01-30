@@ -10,14 +10,11 @@ The main goal of this project is to develop a robust encoding method for DNA sto
 ## Contents
 - **Data:** Store some experimental results and comparative data, as well as codebooks for other adversarial scenarios.
 - **Codebook Generation Scheme** The initial version of the code for ECG and codebook generation in the research paper. This folder will not be made public until the paper is published. 
-
-
-## Contributions
-
-Contributions to the project are welcome. If you are interested in collaborating or have suggestions, please：
-[2230501004@cnu.edu.cn](mailto:2230501004@cnu.edu.cn)
-
+ 
 
 ## License
 
 This project is released under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+If you are interested in collaborating or have suggestions, please：
+[2230501004@cnu.edu.cn](mailto:2230501004@cnu.edu.cn)
