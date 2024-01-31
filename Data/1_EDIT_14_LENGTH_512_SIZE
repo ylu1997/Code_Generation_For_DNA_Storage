@@ -1,8 +1,8 @@
 Error Correction Capability(EDIT/SUB/INS/DEL): 1 EDIT
 Sequences Length(bit): 14
 Time Consumption(s):  613.4166
-Redundancy(bit): 20
-Maximal spacing: 22 edit distance
+Redundancy(bit): 19
+Maximal spacing: 24 edit distance
 Minmal spacing: 4 edit distance
 Size of codebook: 512
 
