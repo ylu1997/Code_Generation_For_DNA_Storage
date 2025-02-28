@@ -28,7 +28,19 @@ This file contains the implementation of the codebook generation algorithm for E
 - `cgg(booksize, increment_option, dep, wid, arrlen, p_s, i_l, m_l, msks, s_a)`: Generates a codebook by iteratively augmenting sequences and updating matrices until a stopping condition is met.
 
 ## Usage
-To run the main ECG processing script, execute the `ECG.py` file. Ensure that the necessary dependencies, such as PyTorch, are installed in your environment.
-
+This is for codebook generation.
 ```bash
-python ECG.py
+    charSeq = [(2, ('*', '*'), ('', '*'), ('*', '')), ]
+    msks, s_a, p_s, i_l, m_l = serialization(charSeq)
+    # seqs = ["G", "G", "C", "T", "A", "G", "C"]
+    # mats = batch_initialize_mat(len(seqs), 1, 0, 3)
+
+
+    set_num_threads(28)
+    # p_s, i_l, m_l, msks, s_a
+    # batch_augment_ecg_4_codebook(seqs, 1, mats, 0, p_s, i_l, m_l, msks, s_a)
+    ans = cgg(2**10, ['A','C','T','G'], 1, 1, 3, p_s, i_l, m_l, msks, s_a)
+    print(ans)
+    print(len(ans[0]))
+```
+ 
