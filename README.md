@@ -7,6 +7,9 @@ It's disheartening to see that, even though I tried to carry out this work, many
 This realization is a stark reminder of how quickly the field moves and how much more there is to learn and improve. While it pains me to see my work as only a partial step in a much larger journey, I also hope it will motivate me to continue pushing forward and eventually catch up with these advancements.
 
 The multi-cpu part is finished. For GPU version is still incomplete, I am not sure if anyone care about it.
+
+The power of the individual is too small.
+
  
 ---
 
