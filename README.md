@@ -1,9 +1,7 @@
 # Regret and Reflection
 
 After dedicating a lot of time to developing a multi-pattern regex matching solution for multicore CPUs, I recently discovered that someone else has already published an article on GPU acceleration for this problem: [HybridSA: GPU Acceleration of Multi-pattern Regex Matching using Bit Parallelism](https://dl.acm.org/doi/pdf/10.1145/3689771). 
-
-It's hard not to feel disheartened—seeing that the work I once poured my energy into now seems overshadowed by this publication, making my past efforts feel almost worthless. While it's a bitter realization that the field has advanced in ways I didn't anticipate, I also understand that research is a continuous journey. Every step, even those that now feel obsolete, contributes to a broader understanding and can pave the way for future innovations.
-
+ 
 Nonetheless, it's a stark reminder of how quickly technological progress can render previous work outdated.
 
 
