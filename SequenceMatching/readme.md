@@ -1,4 +1,3 @@
-
 # Version3 Code Overview
 
 ## Introduction
@@ -13,10 +12,8 @@ This file contains the main logic for processing ECG data. It includes functions
 - `decode_line(seqs, codebook, ccs)`: Decodes a given sequence using a specified codebook and correction feature sequence.
 - `seq_match(item, codebook, residue, chStr, mask, shiftAmount)`: Matches a sequence item with the codebook and updates the residue matrix.
 - `decimal_to_binary(a, bit_len)`: Converts a decimal number to a binary string of specified bit length.
-
-### `draft.py`
-This file contains various experimental code snippets, including matrix indexing, tensor operations with PyTorch, and performance testing for data transfer between CPU and GPU.
-
+- `cgg(booksize, increment_option, dep, wid, arrlen, p_s, i_l, m_l, msks, s_a)`: Generates a codebook by iteratively augmenting sequences and updating matrices until a stopping condition is met.
+ 
 #### Key Sections:
 - Matrix Indexing: Functions and examples for indexing and manipulating matrices.
 - PyTorch Operations: Code for generating large datasets and testing data transfer times between CPU and GPU.
