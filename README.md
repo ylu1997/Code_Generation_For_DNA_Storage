@@ -1,10 +1,13 @@
-# Regret and Reflection
+# Regret and Reflection on My Incomplete Work
 
-After dedicating a lot of time to developing a multi-pattern regex matching solution for multicore CPUs, I recently discovered that someone else has already published an article on GPU acceleration for this problem: [HybridSA: GPU Acceleration of Multi-pattern Regex Matching using Bit Parallelism](https://dl.acm.org/doi/pdf/10.1145/3689771). 
+Despite my earnest efforts to complete this project on multi-pattern regex matching for multicore CPUs, I now realize that there is still so much left undone. Recently, I discovered that others have already published significant advancements in this area—such as the paper [HybridSA: GPU Acceleration of Multi-pattern Regex Matching using Bit Parallelism](https://dl.acm.org/doi/pdf/10.1145/3689771).
+
+It's disheartening to see that, even though I tried to carry out this work, many aspects remain unfinished, and my efforts now seem overshadowed by these new innovations. I can't help but feel that much of what I worked on was incomplete, leaving me with a sense of regret over all that was left undone.
+
+This realization is a stark reminder of how quickly the field moves and how much more there is to learn and improve. While it pains me to see my work as only a partial step in a much larger journey, I also hope it will motivate me to continue pushing forward and eventually catch up with these advancements.
+
+The multi-cpu part is finished. For GPU version is still incomplete, I am not sure if anyone care about it.
  
-Nonetheless, it's a stark reminder of how quickly technological progress can render previous work outdated.
-
-
 ---
 
 # Code_Generation_For_DNA_Storage
