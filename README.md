@@ -1,8 +1,9 @@
 # Reflections and Regrets
 
-Looking back, I feel a sense of regret. Many years ago, I implemented a solution for multi-pattern regex matching on multicore CPUs. At that time, adapting the algorithm for GPU computation required extensive modifications and effort. However, as I see the current state of research—like in the HybridSA paper—the need for those heavy modifications on GPUs has largely diminished.
+Looking back, I feel a deep sense of regret. Many years ago, I developed an algorithm for multi-pattern regex matching that ran solely on multicore CPUs. At that time, adapting it for GPU computation meant making extensive modifications and facing many challenges. Now, with the advances shown in papers like [HybridSA: GPU Acceleration of Multi-pattern Regex Matching using Bit Parallelism](https://dl.acm.org/doi/pdf/10.1145/3689771), I realize that much of the heavy work needed for GPU adaptation has been significantly simplified.
 
-It's bittersweet: I once invested significant time optimizing for CPU architectures, and now the landscape has shifted. While I wish I had ventured into GPU-based solutions sooner, I’m also grateful to see that the innovations in GPU computation have simplified what once was a daunting challenge.
+In a way, it's bittersweet—I spent so much effort optimizing for CPU architectures when the field has now moved forward. I can't help but wish I had explored GPU-based solutions earlier. Nonetheless, I’m grateful to see these innovations and to learn that the difficulties I once faced are no longer as daunting.
+
 
 ---
 
