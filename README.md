@@ -10,6 +10,7 @@ The multi-cpu part is finished. For GPU version is still incomplete, I am not su
 
 The power of the individual is too small.
 
+ *Special thanks to the development of AI, which has enabled me to retrieve developments in areas I wasn’t familiar with—even if they aren’t the very latest.*
  
 ---
 
