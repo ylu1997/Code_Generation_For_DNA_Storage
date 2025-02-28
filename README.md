@@ -1,3 +1,11 @@
+# Reflections and Regrets
+
+Looking back, I feel a sense of regret. Many years ago, I implemented a solution for multi-pattern regex matching on multicore CPUs. At that time, adapting the algorithm for GPU computation required extensive modifications and effort. However, as I see the current state of research—like in the HybridSA paper—the need for those heavy modifications on GPUs has largely diminished.
+
+It's bittersweet: I once invested significant time optimizing for CPU architectures, and now the landscape has shifted. While I wish I had ventured into GPU-based solutions sooner, I’m also grateful to see that the innovations in GPU computation have simplified what once was a daunting challenge.
+
+---
+
 # Code_Generation_For_DNA_Storage
 
 This GitHub repository is dedicated to exploring and implementing a Codebook generation method for DNA storage. Currently, it serves as a repository for storing experimental data and code used for verification purposes.
